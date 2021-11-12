@@ -32,7 +32,7 @@ $df = fopen($filename, 'w');
 $usd = array_values($array['Cube']['Cube']['Cube'][0])[0]['rate'];
 //Putting info into .csv
 
-//First line(Columns)
+//First line (Columns)
 $columns = array(
 	0 => "Currency Code",
 	1 => "Rate");
